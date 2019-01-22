@@ -54,14 +54,38 @@
 		521C544B21F7A37300324028 /* Tutopesa */ = {
 			isa = PBXGroup;
 			children = (
-				521C544C21F7A37300324028 /* AppDelegate.swift */,
-				521C544E21F7A37300324028 /* ViewController.swift */,
-				521C545021F7A37300324028 /* Main.storyboard */,
+				521C546021F7AF8000324028 /* controller */,
+				521C545F21F7AF7400324028 /* view */,
+				521C545E21F7AF6100324028 /* model */,
 				521C545321F7A37500324028 /* Assets.xcassets */,
-				521C545521F7A37500324028 /* LaunchScreen.storyboard */,
 				521C545821F7A37500324028 /* Info.plist */,
 			);
 			path = Tutopesa;
+			sourceTree = "<group>";
+		};
+		521C545E21F7AF6100324028 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		521C545F21F7AF7400324028 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				521C545521F7A37500324028 /* LaunchScreen.storyboard */,
+				521C545021F7A37300324028 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		521C546021F7AF8000324028 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				521C544E21F7A37300324028 /* ViewController.swift */,
+				521C544C21F7A37300324028 /* AppDelegate.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
